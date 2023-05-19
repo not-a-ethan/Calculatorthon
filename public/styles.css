@@ -1,0 +1,272 @@
+body {
+    background-color: #000;
+    color: rgb(161, 161, 161);
+}
+
+.input-output {
+  width: 10em;
+  height: 2.5em;
+  border: 1px solid white;
+  margin-bottom: .5em;
+}
+
+.buttons {
+  display: grid;
+  width: 10em;
+  gap: 0.5em;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.one > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.two > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.three > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four {
+  grid-column: 1;
+  grid-row: 2;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.four > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.five {
+  grid-column: 2;
+  grid-row: 2;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.five > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.six {
+  grid-column: 3;
+  grid-row: 2;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.six > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.seven > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.eight > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.nine > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zero {
+  grid-column: 2;
+  grid-row: 4;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.zero > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decimal {
+  grid-column: 3;
+  grid-row: 4;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.decimal > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.negitive {
+  grid-column: 1;
+  grid-row: 4;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.negitive > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  grid-column: 4;
+  grid-row: 1;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.add > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtract {
+  grid-column: 4;
+  grid-row: 2;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.subtract > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.multiply {
+  grid-column: 4;
+  grid-row: 3;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.multiply > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divide {
+  grid-column: 4;
+  grid-row: 4;
+  cursor: pointer;
+  border: 1px solid white;
+  width: 2.125em;
+  height: 2.125em;
+}
+
+.divide > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equals {
+  grid-column: 1/5;
+  grid-row: 5;
+  cursor: pointer;
+  border: 1px solid white;
+  width: auto;
+  height: 2.125em;
+}
+
+.equals > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
