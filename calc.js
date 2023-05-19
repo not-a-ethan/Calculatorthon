@@ -216,7 +216,7 @@ module.exports = async function(question) {
 		// if the token is somehow empty now
 		if (tokens[i] === "") {
 			tokens.splice(i, 1);
-			continue;
+			continue
 		}
 	}
 	while (!Number(tokens[0]) && !operators.includes(tokens[0]) && !separators.includes(tokens[0])) {
